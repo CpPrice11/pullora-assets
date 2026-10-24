@@ -4,18 +4,21 @@ import re
 from pathlib import Path
 
 root = Path(__file__).resolve().parents[1]
-manifest = json.loads((root / 'manifest.json').read_text(encoding='utf-8'))
+manifest_bytes = (root / 'manifest.json').read_bytes()
+assert len(manifest_bytes) <= 128 * 1024
+manifest = json.loads(manifest_bytes)
 assert manifest['version'] == 1
 assert len(manifest['projects']) <= 128
 count = 0
 for key, project in manifest['projects'].items():
-    assert re.fullmatch(r'[a-z0-9_-]+/[a-z0-9_.-]+', key), key
+    assert re.fullmatch(r'cpprice11/[a-z0-9][a-z0-9_.-]{0,99}', key), key
     assert len(project.get('screenshots', [])) <= 8
     for name in [project.get('icon'), *project.get('screenshots', [])]:
         if name is None:
             continue
         parts = name.split('/')
         assert len(parts) == 4 and '/'.join(parts[:3]) == f'media/{key}', name
+        assert len(parts[3]) <= 120, name
         assert re.fullmatch(r'[a-z0-9][a-z0-9_.-]*\.(png|jpg|jpeg|webp)', parts[3]), name
         data = (root / name).read_bytes()
         assert 0 < len(data) <= 4 * 1024 * 1024, name
