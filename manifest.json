@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "projects": {
+    "cpprice11/fandom-translator": {
+      "icon": "media/cpprice11/fandom-translator/icon-v1.png",
+      "screenshots": []
+    },
+    "cpprice11/steam-achievement-manager": {
+      "icon": "media/cpprice11/steam-achievement-manager/icon-v1.png",
+      "screenshots": []
+    },
+    "cpprice11/recycle-desk": {
+      "icon": "media/cpprice11/recycle-desk/icon-v1.png",
+      "screenshots": []
+    }
+  }
+}
