@@ -12,7 +12,17 @@ Pullora доступний усім. Автор розвиває лаунчер 
 | --- | --- | --- |
 | [Fandom Translator](https://github.com/CpPrice11/fandom-translator) | [PNG](media/cpprice11/fandom-translator/icon-v1.png) | Ще не додані |
 | [MY SAM](https://github.com/CpPrice11/steam-achievement-manager) | [PNG](media/cpprice11/steam-achievement-manager/icon-v1.png) | Ще не додані |
-| [Recycle Desk](https://github.com/CpPrice11/recycle-desk) | [PNG](media/cpprice11/recycle-desk/icon-v1.png) | Ще не додані |
+| [Recycle Desk](https://github.com/CpPrice11/recycle-desk) | [PNG](media/cpprice11/recycle-desk/icon-v2.png) | [Темна тема](media/cpprice11/recycle-desk/main-dark-uk-v012.png), [світла тема](media/cpprice11/recycle-desk/main-light-en-v012.png), [пошук](media/cpprice11/recycle-desk/search-dark-uk-v012.png) |
+
+### Recycle Desk
+
+Версія 0.1.2 з демонстраційними файлами.
+
+| Українська, темна тема | English, light theme |
+| --- | --- |
+| ![Recycle Desk: темна тема та мініатюри](media/cpprice11/recycle-desk/main-dark-uk-v012.png) | ![Recycle Desk: світла тема та мініатюри](media/cpprice11/recycle-desk/main-light-en-v012.png) |
+
+![Recycle Desk: пошук файлів за назвою](media/cpprice11/recycle-desk/search-dark-uk-v012.png)
 
 Підключення сховища та галерея реалізовані локально в Pullora, але ще не входять до опублікованого `v5.22.1`. Потрібні нативна перевірка та окремий випуск лаунчера. Саме сховище й файли вже доступні без токена.
 
@@ -62,6 +72,6 @@ python scripts/check_manifest.py
 
 This public repository stores application icons and screenshots for [Pullora](https://github.com/CpPrice11/pullora). Anyone can use the launcher; its author develops it primarily for their own use, and its catalog contains CpPrice11's applications.
 
-Three official application icons are available. Real screenshots have not been added yet. The launcher integration and gallery are local work and have not shipped in `v5.22.1`; native validation and a launcher release are still pending. The prepared integration prioritizes custom artwork, caches downloaded images, and loads screenshots when details are opened.
+Three application icons and three real Recycle Desk 0.1.2 screenshots are available. The Recycle Desk icon is centered on a transparent 256×256 canvas. Its gallery shows dark and light themes and a search example with demo files. The launcher integration and gallery are local work and have not shipped in `v5.22.1`; native validation and a launcher release are still pending. The prepared integration prioritizes custom artwork, caches downloaded images, and loads screenshots when details are opened.
 
 Add images under `media/cpprice11/<repo>/`, register them in `manifest.json`, and document their sources and rights in `SOURCES.md`. Use new filenames for replacements and run `python scripts/check_manifest.py` before publishing. See the Ukrainian instructions above for the exact format and limits.
