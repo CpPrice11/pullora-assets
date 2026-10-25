@@ -5,10 +5,12 @@
 | Програма | Оригінал | Права |
 | --- | --- | --- |
 | Fandom Translator | [assets/icon.ico](https://github.com/CpPrice11/fandom-translator/blob/main/assets/icon.ico) | CpPrice11; окрема відкрита ліцензія в репозиторії не зазначена. Додано власником для використання в Pullora. |
-| MY SAM | [v0.1/assets/app-icon-pullora.png](https://github.com/CpPrice11/steam-achievement-manager/blob/main/v0.1/assets/app-icon-pullora.png) | CpPrice11; [MIT](https://github.com/CpPrice11/steam-achievement-manager/blob/main/LICENSE). Текст ліцензії: `licenses/steam-achievement-manager.txt`. |
+| MY SAM | [v0.1/assets/app-icon-steam-achievements-v2.png](https://github.com/CpPrice11/steam-achievement-manager/blob/main/v0.1/assets/app-icon-steam-achievements-v2.png) | Оформлення іконки: CpPrice11; [MIT](https://github.com/CpPrice11/steam-achievement-manager/blob/main/LICENSE). Знак Steam належить Valve й не передається за цією ліцензією. Текст MIT: `licenses/steam-achievement-manager.txt`. |
 | Recycle Desk | [resources/icons/recycle-desk-v1.png](https://github.com/CpPrice11/recycle-desk/blob/main/resources/icons/recycle-desk-v1.png) | CpPrice11; [MIT](https://github.com/CpPrice11/recycle-desk/blob/main/LICENSE). Текст ліцензії: `licenses/recycle-desk.txt`. |
 
 Позначення програм і їхні торговельні марки залишаються власністю відповідних правовласників. Іконки не надають прав на торговельні марки.
+
+Іконка MY SAM `icon-v2.png` створена для Pullora з растрового файлу застосунку. Для знака Steam використано як референс іконку встановленого клієнта Steam та [офіційний SVG](https://store.steampowered.com/public/shared/images/header/logo_steam.svg); композицію кубка згенеровано й обрано для MY SAM. Попередню `icon-v1.png` збережено для наявних посилань.
 
 ## Recycle Desk 0.1.2
 
