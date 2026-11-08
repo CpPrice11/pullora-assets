@@ -13,7 +13,7 @@ Pullora доступний усім. Автор розвиває лаунчер 
 | [Fandom Translator](https://github.com/CpPrice11/fandom-translator) | [PNG](media/cpprice11/fandom-translator/icon-v1.png) | Ще не додані |
 | [MY SAM](https://github.com/CpPrice11/steam-achievement-manager) | [PNG](media/cpprice11/steam-achievement-manager/icon-v2.png) | Ще не додані |
 | [Recycle Desk](https://github.com/CpPrice11/recycle-desk) | [PNG](media/cpprice11/recycle-desk/icon-v2.png) | [Кошик у треї](media/cpprice11/recycle-desk/tray-desktop-uk-v012.png), [крупний план](media/cpprice11/recycle-desk/tray-detail-uk-v012.png), [темна тема](media/cpprice11/recycle-desk/main-dark-uk-v012.png), [світла тема](media/cpprice11/recycle-desk/main-light-en-v012.png), [пошук](media/cpprice11/recycle-desk/search-dark-uk-v012.png) |
-| [CreamAPI](https://github.com/CpPrice11/CreamAPI) | Стандартна резервна іконка Pullora | [Бібліотека UK](media/cpprice11/creamapi/library-dark-uk-v018.png), [історія лаунчера](media/cpprice11/creamapi/launcher-history-dark-uk-v018.png), [видалення модуля](media/cpprice11/creamapi/module-removed-dark-uk-v018.png), [library EN](media/cpprice11/creamapi/library-dark-en-v018.png) |
+| [DLC Dock](https://github.com/CpPrice11/dlc-dock) | [PNG](media/cpprice11/dlc-dock/icon-v1.png) | [Бібліотека UK](media/cpprice11/dlc-dock/library-dark-uk-v019.png), [історія лаунчера](media/cpprice11/dlc-dock/launcher-history-dark-uk-v019.png), [видалення модуля](media/cpprice11/dlc-dock/module-removed-dark-uk-v019.png), [library EN](media/cpprice11/dlc-dock/library-dark-en-v019.png) |
 
 ### Recycle Desk
 
@@ -75,22 +75,24 @@ python scripts/check_manifest.py
 
 Походження кожного зображення й наявні ліцензії наведені в [SOURCES.md](SOURCES.md). Спільної ліцензії на всі зображення немає; права залишаються в їхніх авторів. Публічний доступ до сховища сам собою не змінює умов використання ресурсів.
 
-## CreamAPI
+## DLC Dock
 
-Версія [0.1.8](https://github.com/CpPrice11/CreamAPI/releases/tag/v0.1.8), Rust / WinUI 3. Знімки справжньої програми з синтетичними Steam-папками; вони не підтверджують роботу DLC всередині гри. Окрему іконку не додано, поле `icon` має значення `null`.
+Версія [0.1.9](https://github.com/CpPrice11/dlc-dock/releases/tag/v0.1.9), Rust / WinUI 3. DLC Dock — програма, натхнена CreamAPI та CreamInstaller; поточний модуль — SmokeAPI. Власна іконка показана у вікні, вбудована в EXE та додана до Pullora. Знімки справжньої програми з синтетичними Steam-папками; вони не підтверджують роботу DLC всередині гри.
 
-![CreamAPI: бібліотека Steam українською](media/cpprice11/creamapi/library-dark-uk-v018.png)
+<img src="media/cpprice11/dlc-dock/icon-v1.png" width="96" alt="Іконка DLC Dock: модуль над доком">
+
+![DLC Dock: бібліотека Steam українською](media/cpprice11/dlc-dock/library-dark-uk-v019.png)
 
 | Історія недоступного лаунчера | Видалення розпізнаного модуля |
 | --- | --- |
-| ![CreamAPI: часткове відновлення та доступне архівування](media/cpprice11/creamapi/launcher-history-dark-uk-v018.png) | ![CreamAPI: модуль видалено та доступне скасування](media/cpprice11/creamapi/module-removed-dark-uk-v018.png) |
+| ![DLC Dock: часткове відновлення та доступне архівування](media/cpprice11/dlc-dock/launcher-history-dark-uk-v019.png) | ![DLC Dock: модуль видалено та доступне скасування](media/cpprice11/dlc-dock/module-removed-dark-uk-v019.png) |
 
-![CreamAPI: English interface at minimum supported window size](media/cpprice11/creamapi/library-dark-en-v018.png)
+![DLC Dock: English interface at minimum supported window size](media/cpprice11/dlc-dock/library-dark-en-v019.png)
 
 ## English
 
 This public repository stores application icons and screenshots for [Pullora](https://github.com/CpPrice11/pullora). Anyone can use the launcher; its author develops it primarily for their own use, and its catalog contains CpPrice11's applications.
 
-Three application icons, five real Recycle Desk 0.1.2 screenshots and four CreamAPI 0.1.8 screenshots are available. The Recycle Desk icon is centered on a transparent 256×256 canvas. Its gallery shows the app's notification area icon, a close-up, dark and light themes, and a search example with demo files. The launcher integration and gallery are local work and have not shipped in `v5.22.1`; native validation and a launcher release are still pending. The prepared integration prioritizes custom artwork, caches downloaded images, and loads screenshots when details are opened.
+Four application icons, five real Recycle Desk 0.1.2 screenshots and four DLC Dock 0.1.9 screenshots are available. DLC Dock is inspired by CreamAPI and CreamInstaller; its original icon is also embedded in the EXE and displayed in the native window. The Recycle Desk icon is centered on a transparent 256×256 canvas. Its gallery shows the app's notification area icon, a close-up, dark and light themes, and a search example with demo files. The launcher integration and gallery are local work and have not shipped in `v5.22.1`; native validation and a launcher release are still pending. The prepared integration prioritizes custom artwork, caches downloaded images, and loads screenshots when details are opened.
 
 Add images under `media/cpprice11/<repo>/`, register them in `manifest.json`, and document their sources and rights in `SOURCES.md`. Use new filenames for replacements and run `python scripts/check_manifest.py` before publishing. See the Ukrainian instructions above for the exact format and limits.
