@@ -18,6 +18,15 @@
         "media/cpprice11/recycle-desk/main-light-en-v012.png",
         "media/cpprice11/recycle-desk/search-dark-uk-v012.png"
       ]
+    },
+    "cpprice11/creamapi": {
+      "icon": null,
+      "screenshots": [
+        "media/cpprice11/creamapi/library-dark-uk-v018.png",
+        "media/cpprice11/creamapi/launcher-history-dark-uk-v018.png",
+        "media/cpprice11/creamapi/module-removed-dark-uk-v018.png",
+        "media/cpprice11/creamapi/library-dark-en-v018.png"
+      ]
     }
   }
 }

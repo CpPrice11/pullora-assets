@@ -13,6 +13,7 @@ Pullora доступний усім. Автор розвиває лаунчер 
 | [Fandom Translator](https://github.com/CpPrice11/fandom-translator) | [PNG](media/cpprice11/fandom-translator/icon-v1.png) | Ще не додані |
 | [MY SAM](https://github.com/CpPrice11/steam-achievement-manager) | [PNG](media/cpprice11/steam-achievement-manager/icon-v2.png) | Ще не додані |
 | [Recycle Desk](https://github.com/CpPrice11/recycle-desk) | [PNG](media/cpprice11/recycle-desk/icon-v2.png) | [Кошик у треї](media/cpprice11/recycle-desk/tray-desktop-uk-v012.png), [крупний план](media/cpprice11/recycle-desk/tray-detail-uk-v012.png), [темна тема](media/cpprice11/recycle-desk/main-dark-uk-v012.png), [світла тема](media/cpprice11/recycle-desk/main-light-en-v012.png), [пошук](media/cpprice11/recycle-desk/search-dark-uk-v012.png) |
+| [CreamAPI](https://github.com/CpPrice11/CreamAPI) | Стандартна резервна іконка Pullora | [Бібліотека UK](media/cpprice11/creamapi/library-dark-uk-v018.png), [історія лаунчера](media/cpprice11/creamapi/launcher-history-dark-uk-v018.png), [видалення модуля](media/cpprice11/creamapi/module-removed-dark-uk-v018.png), [library EN](media/cpprice11/creamapi/library-dark-en-v018.png) |
 
 ### Recycle Desk
 
@@ -74,10 +75,22 @@ python scripts/check_manifest.py
 
 Походження кожного зображення й наявні ліцензії наведені в [SOURCES.md](SOURCES.md). Спільної ліцензії на всі зображення немає; права залишаються в їхніх авторів. Публічний доступ до сховища сам собою не змінює умов використання ресурсів.
 
+## CreamAPI
+
+Версія [0.1.8](https://github.com/CpPrice11/CreamAPI/releases/tag/v0.1.8), Rust / WinUI 3. Знімки справжньої програми з синтетичними Steam-папками; вони не підтверджують роботу DLC всередині гри. Окрему іконку не додано, поле `icon` має значення `null`.
+
+![CreamAPI: бібліотека Steam українською](media/cpprice11/creamapi/library-dark-uk-v018.png)
+
+| Історія недоступного лаунчера | Видалення розпізнаного модуля |
+| --- | --- |
+| ![CreamAPI: часткове відновлення та доступне архівування](media/cpprice11/creamapi/launcher-history-dark-uk-v018.png) | ![CreamAPI: модуль видалено та доступне скасування](media/cpprice11/creamapi/module-removed-dark-uk-v018.png) |
+
+![CreamAPI: English interface at minimum supported window size](media/cpprice11/creamapi/library-dark-en-v018.png)
+
 ## English
 
 This public repository stores application icons and screenshots for [Pullora](https://github.com/CpPrice11/pullora). Anyone can use the launcher; its author develops it primarily for their own use, and its catalog contains CpPrice11's applications.
 
-Three application icons and five real Recycle Desk 0.1.2 screenshots are available. The Recycle Desk icon is centered on a transparent 256×256 canvas. Its gallery shows the app's notification area icon, a close-up, dark and light themes, and a search example with demo files. The launcher integration and gallery are local work and have not shipped in `v5.22.1`; native validation and a launcher release are still pending. The prepared integration prioritizes custom artwork, caches downloaded images, and loads screenshots when details are opened.
+Three application icons, five real Recycle Desk 0.1.2 screenshots and four CreamAPI 0.1.8 screenshots are available. The Recycle Desk icon is centered on a transparent 256×256 canvas. Its gallery shows the app's notification area icon, a close-up, dark and light themes, and a search example with demo files. The launcher integration and gallery are local work and have not shipped in `v5.22.1`; native validation and a launcher release are still pending. The prepared integration prioritizes custom artwork, caches downloaded images, and loads screenshots when details are opened.
 
 Add images under `media/cpprice11/<repo>/`, register them in `manifest.json`, and document their sources and rights in `SOURCES.md`. Use new filenames for replacements and run `python scripts/check_manifest.py` before publishing. See the Ukrainian instructions above for the exact format and limits.
