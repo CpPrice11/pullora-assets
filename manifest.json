@@ -1,6 +1,10 @@
 {
   "version": 1,
   "projects": {
+    "cpprice11/clipsail": {
+      "icon": "media/cpprice11/clipsail/icon-v1.png",
+      "screenshots": []
+    },
     "cpprice11/fandom-translator": {
       "icon": "media/cpprice11/fandom-translator/icon-v2.png",
       "screenshots": []
