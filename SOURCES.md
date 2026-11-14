@@ -4,7 +4,7 @@
 
 | Програма | Оригінал | Права |
 | --- | --- | --- |
-| Fandom Translator | [assets/icon.ico](https://github.com/CpPrice11/fandom-translator/blob/main/assets/icon.ico) | CpPrice11; окрема відкрита ліцензія в репозиторії не зазначена. Додано власником для використання в Pullora. |
+| WikiRelay (раніше Fandom Translator) | `icon-v2.png`: кадр 256×256 з `assets/icon.ico` локальної збірки WikiRelay 1.30.27. `icon-v1.png`: [попередня іконка Fandom Translator](https://github.com/CpPrice11/fandom-translator/blob/main/assets/icon.ico). | CpPrice11; окрема відкрита ліцензія не зазначена. Додано власником для використання в Pullora. |
 | MY SAM | [v0.1/assets/app-icon-steam-achievements-v2.png](https://github.com/CpPrice11/steam-achievement-manager/blob/main/v0.1/assets/app-icon-steam-achievements-v2.png) | Оформлення іконки: CpPrice11; [MIT](https://github.com/CpPrice11/steam-achievement-manager/blob/main/LICENSE). Знак Steam належить Valve й не передається за цією ліцензією. Текст MIT: `licenses/steam-achievement-manager.txt`. |
 | Recycle Desk | [resources/icons/recycle-desk-v1.png](https://github.com/CpPrice11/recycle-desk/blob/main/resources/icons/recycle-desk-v1.png) | CpPrice11; [MIT](https://github.com/CpPrice11/recycle-desk/blob/main/LICENSE). Текст ліцензії: `licenses/recycle-desk.txt`. |
 

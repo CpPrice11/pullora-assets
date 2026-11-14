@@ -10,7 +10,7 @@ Pullora доступний усім. Автор розвиває лаунчер 
 
 | Застосунок | Іконка | Скриншоти |
 | --- | --- | --- |
-| [Fandom Translator](https://github.com/CpPrice11/fandom-translator) | [PNG](media/cpprice11/fandom-translator/icon-v1.png) | Ще не додані |
+| [WikiRelay](https://github.com/CpPrice11/fandom-translator) | [PNG](media/cpprice11/fandom-translator/icon-v2.png) | Ще не додані |
 | [MY SAM](https://github.com/CpPrice11/steam-achievement-manager) | [PNG](media/cpprice11/steam-achievement-manager/icon-v2.png) | Ще не додані |
 | [Recycle Desk](https://github.com/CpPrice11/recycle-desk) | [PNG](media/cpprice11/recycle-desk/icon-v2.png) | [Кошик у треї](media/cpprice11/recycle-desk/tray-desktop-uk-v012.png), [крупний план](media/cpprice11/recycle-desk/tray-detail-uk-v012.png), [темна тема](media/cpprice11/recycle-desk/main-dark-uk-v012.png), [світла тема](media/cpprice11/recycle-desk/main-light-en-v012.png), [пошук](media/cpprice11/recycle-desk/search-dark-uk-v012.png) |
 | [DLC Dock](https://github.com/CpPrice11/dlc-dock) | [PNG](media/cpprice11/dlc-dock/icon-v1.png) | [Бібліотека UK](media/cpprice11/dlc-dock/library-dark-uk-v019.png), [історія лаунчера](media/cpprice11/dlc-dock/launcher-history-dark-uk-v019.png), [видалення модуля](media/cpprice11/dlc-dock/module-removed-dark-uk-v019.png), [library EN](media/cpprice11/dlc-dock/library-dark-en-v019.png) |
